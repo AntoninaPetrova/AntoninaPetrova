@@ -5,14 +5,14 @@ from random import randint
 
 
 def getNumbers(n):
-    return [randint(-n, n) for i in range(n)]
+    return [randint(-n, n) for i in range(n)] # List Comprehension 
 
 
 # def getProd(a, b):
 #     prod = my_list[a]*my_list[b]
 #     return prod
 
-prod = lambda a, b: my_list[a]*my_list[b]
+prod = lambda a, b: my_list[a]*my_list[b] #lamdda
 
 n = int(input('Введите число N  '))
 my_list = getNumbers(n)

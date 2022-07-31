@@ -3,7 +3,7 @@
 # Пример: [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 
 my_list = [2, 3, 5, 9, 3]
-my_list_1 = [my_list[i] for i in range(1, len(my_list), 2)]
+my_list_1 = [my_list[i] for i in range(1, len(my_list), 2)] # List Comprehension 
 print('На нечётных позициях элементы  ', my_list_1)
 sum = 0
 for i in range(0, len(my_list_1)):
